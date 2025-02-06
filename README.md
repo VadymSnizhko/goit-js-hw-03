@@ -1,21 +1,20 @@
 Second Home Work
 
-audit task 1: console.log(makeTransaction(5, 3000, 23000)); // "You ordered 5
-droids worth 15000 credits!" console.log(makeTransaction(3, 1000, 15000)); //
-"You ordered 3 droids worth 3000 credits!" console.log(makeTransaction(10, 5000,
-8000)); // "Insufficient funds!" console.log(makeTransaction(8, 2000, 10000));
-// "Insufficient funds!" console.log(makeTransaction(10, 500, 5000)); // "You
-ordered 10 droids worth 5000 credits!"
+audit task 1: console.log(slugify("Arrays for beginners")); //
+"arrays-for-beginners" console.log(slugify("English for developer")); //
+"english-for-developer" console.log(slugify("Ten secrets of JavaScript")); //
+"ten-secrets-of-javascript" console.log(slugify("How to become a JUNIOR
+developer in TWO WEEKS")); // "how-to-become-a-junior-developer-in-two-weeks"
 
-audit task 2: console.log(formatMessage("Curabitur ligula sapien", 16)); //
-"Curabitur ligula..." console.log(formatMessage("Curabitur ligula sapien", 23));
-// "Curabitur ligula sapien" console.log(formatMessage("Vestibulum facilisis
-purus nec", 20)); // "Vestibulum facilisis..."
-console.log(formatMessage("Vestibulum facilisis purus nec", 30)); // "Vestibulum
-facilisis purus nec" console.log(formatMessage("Nunc sed turpis a felis in nunc
-fringilla", 15)); // "Nunc sed turpis..." console.log(formatMessage("Nunc sed
-turpis a felis in nunc fringilla", 41)); // "Nunc sed turpis a felis in nunc
-fringilla"
+audit task 2: console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// ["Mango", "Poly", "Ajax"] console.log(makeArray(["Mango", "Poly", "Houston"],
+["Ajax", "Chelsea"], 4)); // ["Mango", "Poly", "Houston", "Ajax"]
+console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)); //
+["Mango", "Ajax", "Chelsea"] console.log(makeArray(["Earth", "Jupiter"],
+["Neptune", "Uranus"], 2)); // ["Earth", "Jupiter"]
+console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)); //
+["Earth", "Jupiter", "Neptune", "Uranus"] console.log(makeArray(["Earth",
+"Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); // []
 
 audit task 3: console.log(getElementWidth("50px", "8px", "4px")); // 74
 console.log(getElementWidth("60px", "12px", "8.5px")); // 101
